@@ -1,0 +1,118 @@
+@media only screen and (max-width: 640px) {
+ 
+
+
+  .row img {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100%; */
+    padding-inline: 2vw;
+  }
+
+  .about-content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+
+  .sub-about {
+    /* width: 90%; */
+    margin-block: 20px;
+    padding-left: 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    /* padding-left: 20px; */
+    position: absolute;
+  }
+
+  footer {
+    /* width: 100%; */
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 0;
+  }
+
+  .links {
+    gap: 10px;
+    /* padding-right: 40px; */
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  .elems {
+    /* border: 1px solid #fff; */
+    height: auto;
+    /* width: 90%; */
+    color: #fff;
+    padding-inline: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* width: 100%; */
+        padding-inline: 2vw;
+      }
+    
+      .about-content {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+      }
+    
+      .sub-about {
+        /* width: 90%; */
+        margin-block: 20px;
+        padding-left: 10px;
+        display: flex;
+        color: #fff;
+        flex-direction: column;
+        /* padding-left: 20px; */
+        position: absolute;
+      }
+    
+
+    
+}
+
+
+@media only screen and (min-width: 1024px){
+    /* .main{
+        background-color: violet;
+    } */
+
+    .about {
+        padding: 10vw 20vw;
+        padding-right: 100px;
+    }
+}
